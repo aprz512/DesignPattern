@@ -12,6 +12,10 @@ public class EditFragment extends Frament {
         EditFragment editFragment = new EditFragment();
         CreateFragment createFragment = new CreateFragment();
         editFragment.doA();
+
+        float f = 2.2f;
+        double d = f;
+        Log.E(d + "");
     }
 
     public void doA() {

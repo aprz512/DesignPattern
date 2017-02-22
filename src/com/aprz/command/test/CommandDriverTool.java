@@ -16,6 +16,10 @@ import com.aprz.command.TVOnCommand;
 /**
  *
  * @author aprz
+ *
+ * 命令模式：将一个动作（算法程序之类的）封装成一个对象
+ *
+ * 实现调用者与接受者的解耦
  */
 public class CommandDriverTool {
     
