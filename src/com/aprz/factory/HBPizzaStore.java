@@ -8,8 +8,10 @@ package com.aprz.factory;
  */
 public class HBPizzaStore extends PizzaStore {
 
+
+
 	@Override
-	public Pizza createPizza(String pizzaName) {
+	public Pizza orderPizza(String pizzaName) {
 		HBPizzaFactory factory = new HBPizzaFactory();
 		return factory.createPizza(pizzaName);
 	}

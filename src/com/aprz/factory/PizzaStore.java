@@ -13,7 +13,7 @@ package com.aprz.factory;
 public abstract class PizzaStore {
 
 	public Pizza dealOrder(String pizzaName) {
-		Pizza pizza = createPizza(pizzaName);
+		Pizza pizza = orderPizza(pizzaName);
 		pizza.prepare();
 		pizza.bake();
 		pizza.cut();
@@ -21,6 +21,6 @@ public abstract class PizzaStore {
 		return pizza;
 	}
 
-	public abstract Pizza createPizza(String pizzaName);
+	public abstract Pizza orderPizza(String pizzaName);
 
 }
